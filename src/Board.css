@@ -1,3 +1,16 @@
-.status{
+.status {
     margin-bottom: 10px;
+}
+
+/* Flexbox를 사용하여 Board 내부 요소들을 가로로 정렬 */
+.board-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 보드 전체를 Flex 컨테이너로 설정하여 중앙 정렬 */
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
